@@ -1,0 +1,4 @@
+# Add Hindi abusive words here, one per line
+kuttta
+kameena
+# lines starting with # are ignored
