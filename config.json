@@ -1,0 +1,11 @@
+{
+    "whisper_model_size": "base",
+    "classification_mode": "model",
+    "classification_model_name": "bert-base-multilingual-cased",
+    "abuse_label": "LABEL_1",
+    "abuse_confidence_threshold": 0.75,
+    "keyword_file": "keywords.txt",
+    "beep_frequency_hz": 440,
+    "temp_dir": "redactor_temp",
+    "log_level": "INFO"
+}
