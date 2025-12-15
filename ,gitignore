@@ -1,0 +1,55 @@
+# --- Python Standard ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environment ---
+venv/
+env/
+ENV/
+.venv
+
+# --- IDE & OS ---
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+pip-log.txt
+
+# --- Project Specific ---
+# The temporary working directory defined in config.json
+redactor_temp/
+
+# Output files (don't commit the censored videos)
+*_censored.mp4
+*_censored_*.mp4
+
+# Temporary audio files if they leak outside the temp folder
+*.wav
+*.mp3
+
+# Optional: Ignore the keywords file if you want to keep your specific list private
+# keywords.txt
