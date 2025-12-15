@@ -1,0 +1,8 @@
+moviepy
+openai-whisper
+transformers>=4.20.0
+torch>=1.9.0
+pydub
+numpy
+customtkinter>=5.0
+Pillow
